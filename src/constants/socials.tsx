@@ -6,18 +6,18 @@ import {
 
 export const socials = [
   {
-    href: "https://twitter.com/mannupaaji",
+    href: "https://x.com/DevSiddhansh",
     label: "Twitter",
     icon: IconBrandTwitter,
   },
   {
-    href: "https://linkedin.com/in/manuarora28",
+    href: "https://www.linkedin.com/in/siddhansh-manikoth-a4a5a7320/",
     label: "LinkedIn",
     icon: IconBrandLinkedin,
   },
   {
-    href: "https://youtube.com/maninthere",
-    label: "YouTube",
+    href: "https://github.com/SiddhanshManikoth",
+    label: "Github",
     icon: IconBrandYoutube,
   },
 ];

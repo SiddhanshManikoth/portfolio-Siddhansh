@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 import { Heading } from "./Heading";
 import { twMerge } from "tailwind-merge";
@@ -6,68 +5,60 @@ import { twMerge } from "tailwind-merge";
 export const TechStack = () => {
   const stack = [
     {
-      title: "Next.js",
-      src: "/images/logos/next.png",
-
-      className: "h-10 w-14",
+      title: "Python",
+      icon: "🐍",
+      className: "text-2xl",
     },
     {
-      title: "AWS",
-      src: "/images/logos/aws.webp",
-
-      className: "h-10 w-10",
+      title: "JavaScript",
+      icon: "JS",
+      className: "bg-yellow-300 text-black font-bold px-2 py-1 rounded",
     },
     {
-      title: "Figma",
-      src: "/images/logos/figma.png",
-
-      className: "h-10 w-8",
+      title: "React",
+      icon: "⚛️",
+      className: "text-2xl",
     },
     {
-      title: "Framer Motion",
-      src: "/images/logos/framer.webp",
-
-      className: "h-10 w-10",
+      title: "Flask",
+      icon: "🧪",
+      className: "text-2xl",
     },
     {
-      title: "Node",
-      src: "/images/logos/node.png",
-
-      className: "h-10 w-12",
+      title: "TailwindCSS",
+      icon: "🌊",
+      className: "text-2xl",
     },
     {
-      title: "Tailwind",
-      src: "/images/logos/tailwind.png",
-
-      className: "h-10 w-24",
+      title: "HTML5",
+      icon: "</>",
+      className: "bg-orange-500 text-white font-bold px-2 py-1 rounded",
     },
     {
-      title: "Vercel",
-      src: "/images/logos/vercel.png",
-
-      className: "h-10 w-24",
+      title: "CSS3",
+      icon: "🎨",
+      className: "text-2xl",
+    },
+    {
+      title: "Internet Computer Protocol",
+      icon: "🌐",
+      className: "text-2xl",
+    },
+    {
+      title: "Git",
+      icon: "📂",
+      className: "text-2xl",
+    },
+    {
+      title: "UI/UX Design",
+      icon: "🎯",
+      className: "text-2xl",
     },
   ];
+
   return (
     <div>
-      <Heading
-        as="h2"
-        className="font-black text-lg md:text-lg lg:text-lg mt-20 mb-4"
-      >
-        Tech Stack
-      </Heading>
-      <div className="flex flex-wrap">
-        {stack.map((item) => (
-          <Image
-            src={item.src}
-            key={item.src}
-            width={`200`}
-            height={`200`}
-            alt={item.title}
-            className={twMerge("object-contain mr-4 mb-4", item.className)}
-          />
-        ))}
-      </div>
+   
     </div>
   );
 };
