@@ -106,7 +106,7 @@ export const products = [
         <p>
           Additional tools in the suite include a web scraper for music trend analysis and an
           image watermarking tool with customizable text, opacity, and positioning options.
-          Each component demonstrates practical applications of Python's versatility in solving
+          Each component demonstrates practical applications of Python&apos;s versatility in solving
           real-world problems.
         </p>
       </div>

@@ -24,7 +24,7 @@ export const Contact = () => {
     console.log(formData);
   };
   return (
-    <form className="form" onSubmit={handleSubmit}>
+    <form className="form" onSubmit={handleSubmit}  action="https://getform.io/f/avrwqrya" method="POST">
       <div className="flex flex-col md:flex-row justify-between gap-5">
         <input
           type="text"
